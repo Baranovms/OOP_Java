@@ -18,9 +18,6 @@ public class Monk extends BaseHero {
         System.out.println(this.name + " is using their healing powers.");
     }
     public void step() {
-        System.out.println("Monk walks...");
-    }
-    public String getInfo() {
-        return "Я Монах";
+        System.out.println("Monk moving...");
     }
 }
