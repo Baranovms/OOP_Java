@@ -23,4 +23,10 @@ public class Spearman extends BaseHero {
     public String getInfo() {
         return "Я Копейщик";
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }

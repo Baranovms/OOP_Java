@@ -23,4 +23,10 @@ public class Monk extends BaseHero {
     public String getInfo() {
         return "Я Монах";
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }

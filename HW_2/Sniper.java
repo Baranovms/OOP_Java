@@ -25,4 +25,10 @@ public class Sniper extends BaseHero {
     public String getInfo() {
         return "Я Снайпер";
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }

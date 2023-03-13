@@ -29,7 +29,7 @@ public class Program {
                     heroList.add(new Spearman("Копейщик #" + i));
                     break;
                 case 5:
-                    heroList.add(new Bowman("Арбалетчик #" + i));
+                    heroList.add(new Bowman("Арбалетчик #" + i, heroType));
                     break;
                 case 6:
                     heroList.add(new Monk("Монах #" + i));

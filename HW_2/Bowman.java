@@ -26,4 +26,10 @@ public class Bowman extends BaseHero {
     public String getInfo() {
         return "Я Арбалетчик";
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }
