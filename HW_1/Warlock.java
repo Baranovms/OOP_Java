@@ -25,4 +25,10 @@ public class Warlock extends BaseHero {
     public String getInfo() {
         return "Я Колдун";
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }

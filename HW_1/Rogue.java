@@ -25,4 +25,10 @@ public class Rogue extends BaseHero {
     public String getInfo() {
         return "Я Разбойник";
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }

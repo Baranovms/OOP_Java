@@ -23,4 +23,10 @@ public class Peasant extends BaseHero {
         return "Я крестьянин";
     }
 
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
+
 }

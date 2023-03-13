@@ -20,4 +20,10 @@ public class Monk extends BaseHero {
     public void step() {
         System.out.println("Monk moving...");
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }

@@ -22,4 +22,10 @@ public class Bowman extends BaseHero {
     public void step() {
         System.out.println("Арбалетчик высрелил!");
     }
+
+    @Override
+    public void specialAbility() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'specialAbility'");
+    }
 }
