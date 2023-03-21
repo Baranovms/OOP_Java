@@ -25,7 +25,7 @@ public class Program {
         for (int i = 1; i < GANG_SIZE + 1; i++) {
             switch (new Random().nextInt(4)) {
                 case 0:
-                    whiteSide.add(new Acrobat(BaseHero.generateName(), 1, i));
+                    whiteSide.add(new Rogue(BaseHero.generateName(), 1, i));
                     break;
                 case 1:
                     whiteSide.add(new Magician(BaseHero.generateName(), 1, i));
